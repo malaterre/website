@@ -97,6 +97,6 @@ After all artifacts uploaded and *before* starting deployment AppVeyor adds into
 
 You can iterate through all elements of `$artifacts` hash table with the following code:
 
-foreach($artifactName in $artifacts.keys) {
-  $artifacts[$artifactName]
-}
+	foreach($artifactName in $artifacts.keys) {
+  	  $artifacts[$artifactName]
+	}
